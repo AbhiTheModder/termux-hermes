@@ -44,8 +44,11 @@ cmake -S hermes -B build -G Ninja
 The above instructions create an unoptimized debug build. The `-DCMAKE_BUILD_TYPE=Release` flag will create a release build:
 <b> NOTE: If you want to build hermes for custom version bytecode download the archive(zip/tar.gz) files from <a href="https://github.com/facebook/hermes/tags">hermes tag</a> repo</b> and skip this process
 
-- <b>Now simply run :</b>     cmake -S hermes -B build_release -G Ninja -DCMAKE_BUILD_TYPE=Release
-- 
+- <b>Now simply run :</b>
+```
+cmake -S hermes -B build -G Ninja
+```
+
 - <b>The build system has now been generated in the `build_release` directory. To perform the build: </b>
 
     `cmake --build ./build`
