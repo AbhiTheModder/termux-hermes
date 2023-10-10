@@ -30,7 +30,10 @@ After `cd`ing, follow the steps below to generate the Hermes build system:
 
     git clone https://github.com/facebook/hermes.git
 
-- <b>Now simply run :</b>     `cmake -S hermes -B build -G Ninja`
+- <b>Now simply run :</b>
+```
+cmake -S hermes -B build -G Ninja
+```
 
 - <b>The build system has now been generated in the `build` directory. To perform the build: </b>
 
