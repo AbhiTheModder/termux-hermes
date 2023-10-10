@@ -6,6 +6,10 @@ This repo contains How to build hermes on <b>termux</b> with pre-compiled binary
 ## Building
 Follow the Guide carefully else don't report me if you run into errors. <b>YOu can also watch this small video</b> on how to build it.
 
+<iframe width="420" height="315"
+src="https://youtu.be/loObsRvKi1s?si=5HrJmj2tX6uVPfdd">
+</iframe>
+
 - <b> Update Termux & packages: </b>
 ```
 termux-setup-storage && apt -upgrade -y
