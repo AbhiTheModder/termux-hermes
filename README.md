@@ -46,7 +46,7 @@ The above instructions create an unoptimized debug build. The `-DCMAKE_BUILD_TYP
 
 - <b>Now simply run :</b>
 ```
-cmake -S hermes -B build -G Ninja -DCMAKE_BUILD_TYPE=Release
+cmake -S hermes -B build_release -G Ninja -DCMAKE_BUILD_TYPE=Release
 ```
 
 - <b>The build system has now been generated in the `build_release` directory. To perform the build: </b>
