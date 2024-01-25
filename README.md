@@ -10,7 +10,7 @@ Follow the Guide carefully else don't report me if you run into errors. <b>YOu c
 
 - <b> Update Termux & packages: </b>
 ```
-termux-setup-storage && apt -upgrade -y
+termux-setup-storage && apt upgrade -y
 ```
 - <b> Installing Dependencies: </b>
   ```
