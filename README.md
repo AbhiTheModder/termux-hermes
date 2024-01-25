@@ -46,12 +46,12 @@ The above instructions create an unoptimized debug build. The `-DCMAKE_BUILD_TYP
 
 - <b>Now simply run :</b>
 ```
-cmake -S hermes -B build -G Ninja
+cmake -S hermes -B build -G Ninja -DCMAKE_BUILD_TYPE=Release
 ```
 
 - <b>The build system has now been generated in the `build_release` directory. To perform the build: </b>
 
-    `cmake --build ./build`
+    `cmake --build ./build_release`
   
 ## Running Hermes
 
@@ -114,14 +114,6 @@ In addition to `hermes`, the following tools will be built:
 - `hbcdump`: Hermes bytecode disassembler
 - `hermesc`: Standalone Hermes compiler. This can compile JavaScript to Hermes bytecode, but does not support executing it.
 - `hvm`: Standalone Hermes VM. This can execute Hermes bytecode, but does not support compiling it.
-
-
-- <b> Release Build </b>
-
-The above instructions create an unoptimized debug build. The `-DCMAKE_BUILD_TYPE=Release` flag will create a release build:
-
-    cmake -S hermes -B build_release -G Ninja -DCMAKE_BUILD_TYPE=Release
-    cmake --build ./build_release
 
 ### License
 
