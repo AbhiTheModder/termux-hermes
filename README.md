@@ -1,9 +1,14 @@
 # Termux-hermes
+
 This repo contains How to build hermes on <b>termux</b> with pre-compiled binary <b><a href="https://github.com/AbhiTheModder/termux-hermes/releases">releases</a></b> also 
 
 <b> NOTE:</b> <code> If you want Pre-compiled binares you can find them in releases section of this Repo</code>
 
 ## Building
+### Automatic (recommended)
+**You can simply download and run the [install_hermes.sh](install_hermes.sh) which'll do the installation for you easily**
+
+### Manual
 Follow the Guide carefully else don't report me if you run into errors. <b>YOu can also watch this small video</b> on how to build it.
 
 [![Video Guide](http://img.youtube.com/vi/loObsRvKi1s/0.jpg)](http://www.youtube.com/watch?v=loObsRvKi1s "Video Title")
